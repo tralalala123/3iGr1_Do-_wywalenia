@@ -1,0 +1,31 @@
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #000;
+    color:#fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    row-gap: 1rem;
+}
+ .container>*{
+     padding: 1em;
+ }
+.container>header{
+    background-color: hsl(230, 80%, 70%);
+    flex-basis: 100%;
+}
+main{
+    background-color: hsl(230, 80%, 50%);
+    flex-basis: 65%;
+}
+aside{
+    flex-basis: 30%;
+    background-color: hsl(230, 80%, 70%);
+}
+.container>footer{
+    flex-basis: 100%;
+    background-color: hsl(230, 40%, 70%);
+}
